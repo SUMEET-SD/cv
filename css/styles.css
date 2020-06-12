@@ -1,0 +1,75 @@
+/* --------------------------------------- Global ---------------------------------------- */
+
+
+/* known as Tag Selectors */
+
+body {
+    background-color: #f2fde4;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 15%;
+}
+
+a {
+    color: coral;
+}
+
+a:hover {
+    color: orangered;
+    font-variant: small-caps;
+}
+
+h1 {
+    color: #FFAB40;
+}
+
+h1:hover {
+    color: #FF9100;
+    transition: 3s;
+}
+
+h3 {
+    color: #FFA726;
+}
+
+h3:hover {
+    color: #f47100;
+    transition: 3s;
+}
+
+
+/* ---------------------------------------- Local -------------------------------------------------- */
+
+
+/* known as Class Selectors */
+
+.mib:hover {
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: red;
+    transition: 3s;
+}
+
+
+/* ----------------------------------------- Specific --------------------------------------------- */
+
+
+/* known as id Selectors */
+
+#star:hover {
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+    transition: 3s;
+}
